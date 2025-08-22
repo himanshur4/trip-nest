@@ -1,8 +1,8 @@
 # Travel Itinerary Planner
 
-A modern, full-stack web application designed to help users plan, organize, and discover travel itineraries. Users can create detailed trip plans, manage activities, save favorite destinations, and find inspiration for future travels. The application is built with a React front-end and leverages Firebase for backend services.
+A modern, full-stack web application designed to help users plan, organize, and discover travel itineraries. Users can create detailed trip plans, save favorite destinations, and find inspiration for future travels. The application is built with a React front-end and leverages Firebase for backend services.
 
-### Live: trip-nest-1.web.app
+### Live: [trip-nest-1.web.app](https://trip-nest-1.web.app)
 
 ## Features
 
@@ -34,7 +34,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/himanshur4/trip-nest.git
     cd trip-nest
     ```
 
@@ -55,14 +55,11 @@ To run this project locally, follow these steps:
 ## Environment Variables
 
  ```bash
-   VITE_CLOUDINARY_CLOUD_NAME="YOUR_CLOUDINARY_CLOUD_NAME"
+VITE_CLOUDINARY_CLOUD_NAME="YOUR_CLOUDINARY_CLOUD_NAME"
 VITE_CLOUDINARY_UPLOAD_PRESET="YOUR_CLOUDINARY_UPLOAD_PRESET"
 VITE_UNSPLASH_ACCESS_KEY="YOUR_UNSPLASH_ACCESS_KEY"
 VITE_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-    ```
-
-
-
+```
 
 ## Deployment
 
