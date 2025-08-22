@@ -1,0 +1,7 @@
+[
+    {
+      "origin": ["http://localhost:5173", "https://trip-nest-1.web.app"],
+      "method": ["GET", "POST", "PUT", "DELETE", "HEAD"],
+      "maxAgeSeconds": 3600
+    }
+  ]
