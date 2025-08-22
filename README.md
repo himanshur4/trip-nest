@@ -1,4 +1,4 @@
-# Travel Itinerary Planner
+# TripNest: Travel Itinerary Planner 
 
 A modern, full-stack web application designed to help users plan, organize, and discover travel itineraries. Users can create detailed trip plans, save favorite destinations, and find inspiration for future travels. The application is built with a React front-end and leverages Firebase for backend services.
 
