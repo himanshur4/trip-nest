@@ -18,7 +18,7 @@ export default function LandingPage() {
         </div>
       </header>
       <main>
-        <section className="text-center py-20 px-4">
+        <section className="text-center pt-20 pb-10 md:pb-15 px-4">
           <h2 className=" text-4xl sm:text-5xl  font-bold font-mono text-stone-800 px-3 sm:px-5 ">Your Gateway to <span className='text-gradient bg-clip-text text-transparent bg-gradient-to-tr from-blue-900 to-blue-500'>New Destinations</span></h2>
           <p className="mt-4 text-lg text-gray-700 max-w-2xl mx-auto font-mono tracking-tighter">
             Organize your travel itineraries, from destinations and activities to photos and notes. Your next adventure starts here.
