@@ -1,13 +1,16 @@
 export default function AppBackground({ children }) {
     return (
-      <div className="min-h-screen w-full bg-[#fafafa] relative text-gray-900">
+      <div className="min-h-screen w-full bg-white relative text-gray-800">
         {/* Aurora Dream Diagonal Flow */}
-        <div
-    className="absolute inset-0 z-0"
+         <div
+    className="absolute inset-0 z-0 pointer-events-none"
     style={{
-      background: "#ffffff",
-      backgroundImage: "radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.35) 1px, transparent 0)",
-      backgroundSize: "20px 20px",
+      backgroundImage: `
+        repeating-linear-gradient(0deg, transparent, transparent 20px, rgba(75, 85, 99, 0.08) 20px, rgba(75, 85, 99, 0.08) 21px),
+        repeating-linear-gradient(90deg, transparent, transparent 30px, rgba(107, 114, 128, 0.06) 30px, rgba(107, 114, 128, 0.06) 31px),
+        repeating-linear-gradient(60deg, transparent, transparent 40px, rgba(55, 65, 81, 0.05) 40px, rgba(55, 65, 81, 0.05) 41px),
+        repeating-linear-gradient(150deg, transparent, transparent 35px, rgba(31, 41, 55, 0.04) 35px, rgba(31, 41, 55, 0.04) 36px)
+      `,
     }}
   />
         {/* Your content goes here, layered on top */}
@@ -17,5 +20,4 @@ export default function AppBackground({ children }) {
        </div>
     );
   }
-
 
