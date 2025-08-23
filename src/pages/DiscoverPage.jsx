@@ -155,7 +155,7 @@ const toggleWishlistMutation = useMutation({
             return (
               <Card key={photo.id} className="overflow-hidden group">
                 <CardContent className="px-2 sm:px-4 relative">
-                  <img 
+                  <img loading="lazy"
                     src={photo.urls.regular} 
                     alt={photo.alt_description || 'Travel destination'} 
                     className="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300" 
